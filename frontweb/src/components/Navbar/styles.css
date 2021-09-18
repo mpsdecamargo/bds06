@@ -3,20 +3,25 @@
 }
 
 .nav-logo-text {
+    text-decoration: none;
     width: 112px;
     height: 33px;
     left: 18px;
     top: 18px;
+}
+
+.nav-logo-text h4 {
+    
     color: #000000;
     font-family: Open Sans;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     letter-spacing: -0.015em;
-    text-decoration: none;
+    
 }
 
-.nav-logo-text h4:hover {
+.nav-logo-text h4:hover, h4:link {
     color: #000000;
     text-decoration: none;
     

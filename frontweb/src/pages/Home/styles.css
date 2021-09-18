@@ -1,0 +1,49 @@
+.home-container{
+    display:flex;
+}
+
+.home-card {
+    margin: 81px 100px 111px 97px;
+}
+
+.home-content-container{
+    display:none;
+}
+
+.home-content-container h1 {
+    width: 370px;
+    margin: 0 50px 0 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.home-content-container p {
+    width: 320px;
+    margin: 19px 50px 50px 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+
+    color: #F2F2F2;
+}
+
+@media(min-width:1200px){
+    .home-container{
+        display:flex;
+        flex-direction: row;
+    }
+    .home-content-container {
+        display: unset;
+    }
+}
