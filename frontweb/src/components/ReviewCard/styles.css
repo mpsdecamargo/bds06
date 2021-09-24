@@ -1,0 +1,43 @@
+.reviews-card {
+    background: #6C6C6C;
+    padding-bottom: 10px;
+    
+}
+.reviewer-name-container {
+    display: flex;
+    align-items: baseline;
+    padding: 17px 0 9px 15px;
+}
+
+.reviewer-name-container h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    padding-left: 5px;
+    mix-blend-mode: normal;
+}
+.card-review-container {
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 10px 20px 10px;;
+}
+
+.card-review-container p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    margin: 10px;
+    color: #9E9E9E;
+}
+

@@ -1,0 +1,84 @@
+.movie-details-card {
+    background: #6C6C6C;
+    border-radius: 4px;
+    margin: 18px 0 18px 0;
+    
+}
+
+.input-container {
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+.input-text-container input{
+    width: 280px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 10px 17px 0;
+    
+}
+
+.input-text-container text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #9E9E9E;
+    padding: 13px 67px 13px 10px;
+}
+
+
+.review-button {
+    width: 280px;
+    height: 50px;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    background-color: #FFC700;
+    color: #000;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.button-container text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding: 17px 22px 17px 22px;
+}
+
+@media(min-width: 1200px){
+    .movie-details-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-text-container input{
+        width: 1077px;
+            
+    }
+
+    .input-text-container {
+        margin: 24px 33px 0 17px;
+    }
+    .review-button {
+        width: 330px;
+        margin: 0 397px 10px 396px;
+    }
+}

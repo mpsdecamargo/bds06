@@ -26,3 +26,30 @@
     text-decoration: none;
     
 }
+
+.nav-login-logout {
+    background: #FFC700;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 4px 8px 4px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.nav-login-logout a {
+    width: 85.44px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,29 @@
+.movie-details-container {
+    padding: 0 10px 0 10px;
+}
+
+.moviedetails-title-container h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin: 17px 45px 18px 10px;
+}
+
+.review-card-container {
+    margin-bottom: 28px
+}
+
+@media(min-width: 1200px){
+    .movie-details-container {
+        padding: 0 40px 40px 40px;
+    }
+    .moviedetails-title-container h2 {
+        font-size: 48px;
+        line-height: 65.37px;
+    }
+}
